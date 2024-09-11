@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: ilkproje
+
+test:
+  adi: Levent
+  soyadi: GUREN
+  url: fasdfas
+  username: adi
