@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "test.adi",
+    "type": "java.lang.String",
+    "description": "A description for 'test.adi'"
+  },
+  {
+    "name": "test.username",
+    "type": "java.lang.String",
+    "description": "A description for 'test.username'"
+  },
+  {
+    "name": "test.soyadi",
+    "type": "java.lang.String",
+    "description": "A description for 'test.soyadi'"
+  },
+  {
+    "name": "test.url",
+    "type": "java.lang.String",
+    "description": "A description for 'test.url'"
+  }
+]}
