@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,7 +18,10 @@
 	<div class="text-center mt-4">
 		<h4>Innova Login</h4>
 	</div>
-    <!-- Login Form -->
+	<c:if test="${not empty message}">
+		<div class="text-danger">${message}</div>
+	</c:if>
+	<!-- Login Form -->
     <form action="/" method="post">
       <input type="text" id="login" class="fadeIn second" name="username" placeholder="username">
       <input type="text" id="password" class="fadeIn third" name="password" placeholder="password">
