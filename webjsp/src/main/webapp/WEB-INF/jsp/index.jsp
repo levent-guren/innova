@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-Merhaba JSP
+Merhaba <c:out value="${mesaj}"></c:out>
 </body>
 </html>
